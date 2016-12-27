@@ -1,0 +1,1 @@
+# stylelint-config-ship-shape

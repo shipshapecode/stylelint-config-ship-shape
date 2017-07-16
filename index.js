@@ -4,6 +4,9 @@ module.exports = {
     'stylelint-order'
   ],
   rules: {
+    'color-hex-length': 'long',
+    'selector-pseudo-element-colon-notation': 'single',
+
     'order/properties-alphabetical-order': true
   }
 };

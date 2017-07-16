@@ -7,13 +7,14 @@
   "author": "Robert Wagner <rwwagner90@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.5.0"
   },
   "devDependencies": {
     "stylelint": "^8.0.0",
-    "stylelint-scss": "^1.4.1"
+    "stylelint-scss": "^1.5.1"
   },
   "peerDependencies": {
-    "stylelint": "^7.7.0"
+    "stylelint": "^8.0.0"
   }
 }

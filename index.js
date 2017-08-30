@@ -4,6 +4,12 @@ module.exports = {
     'stylelint-order'
   ],
   rules: {
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['else', 'if', 'include', 'mixin']
+      }
+    ],
     'color-hex-length': 'long',
     'selector-pseudo-element-colon-notation': 'single',
     'selector-type-no-unknown': [

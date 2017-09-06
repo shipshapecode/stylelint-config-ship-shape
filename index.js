@@ -1,15 +1,19 @@
 module.exports = {
   extends: 'stylelint-config-standard',
   plugins: [
-    'stylelint-order'
+    'stylelint-order',
+    'stylelint-scss'
   ],
   rules: {
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: ['else', 'if', 'include', 'mixin']
-      }
-    ],
+    'at-rule-empty-line-before': ['always', {
+      except: [
+        'blockless-after-same-name-blockless',
+        'first-nested'
+      ],
+      ignore: ['after-comment'],
+      ignoreAtRules: ['else']
+    }],
+    'at-rule-no-unknown': null,
     'color-hex-length': 'long',
     'selector-pseudo-element-colon-notation': 'single',
     'selector-type-no-unknown': [
@@ -19,6 +23,8 @@ module.exports = {
       }
     ],
 
-    'order/properties-alphabetical-order': true
+    'order/properties-alphabetical-order': true,
+    
+    'scss/at-rule-no-unknown': true
   }
 };

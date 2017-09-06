@@ -8,11 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "stylelint-config-standard": "^17.0.0",
-    "stylelint-order": "^0.6.0"
+    "stylelint-order": "^0.6.0",
+    "stylelint-scss": "^2.0.1"
   },
   "devDependencies": {
     "stylelint": "^8.0.0",
-    "stylelint-scss": "^2.0.1"
   },
   "peerDependencies": {
     "stylelint": "^8.0.0"

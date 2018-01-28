@@ -28,5 +28,6 @@ module.exports = {
     'order/properties-alphabetical-order': true,
     
     'scss/at-rule-no-unknown': true
+    'scss/dollar-variable-pattern': '^[a-z][a-z-]+$'
   }
 };

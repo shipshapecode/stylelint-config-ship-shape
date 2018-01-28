@@ -15,6 +15,7 @@ module.exports = {
     }],
     'at-rule-no-unknown': null,
     'color-hex-length': 'long',
+    'selector-max-id': 0,
     'selector-pseudo-element-colon-notation': 'single',
     'selector-type-no-unknown': [
       true,

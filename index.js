@@ -1,6 +1,7 @@
 module.exports = {
   extends: 'stylelint-config-standard',
   plugins: [
+    'stylelint-declaration-strict-value',
     'stylelint-order',
     'stylelint-scss'
   ],
@@ -26,8 +27,12 @@ module.exports = {
     ],
 
     'order/properties-alphabetical-order': true,
-    
-    'scss/at-rule-no-unknown': true
+
+    'scale-unlimited/declaration-strict-value': [
+      ['/color/', 'font-size']
+    ],
+
+    'scss/at-rule-no-unknown': true,
     'scss/dollar-variable-pattern': '^[a-z][a-z-]+$'
   }
 };

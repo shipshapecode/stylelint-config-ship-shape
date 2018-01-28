@@ -14,6 +14,7 @@ module.exports = {
       ignoreAtRules: ['else']
     }],
     'at-rule-no-unknown': null,
+    'color-hex-case': null,
     'color-hex-length': 'long',
     'selector-max-id': 0,
     'selector-pseudo-element-colon-notation': 'single',

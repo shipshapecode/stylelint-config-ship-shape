@@ -33,6 +33,6 @@ module.exports = {
     ],
 
     'scss/at-rule-no-unknown': true,
-    'scss/dollar-variable-pattern': '^[a-z][a-z-]+$'
+    'scss/dollar-variable-pattern': '^[a-z][a-z0-9-]+$'
   }
 };

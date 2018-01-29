@@ -29,7 +29,7 @@ module.exports = {
     'order/properties-alphabetical-order': true,
 
     'scale-unlimited/declaration-strict-value': [
-      ['/color/', 'font-size']
+      ['/color/']
     ],
 
     'scss/at-rule-no-unknown': true,

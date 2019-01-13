@@ -7,15 +7,15 @@
   "author": "Robert Wagner <rwwagner90@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-standard": "^17.0.0",
-    "stylelint-declaration-strict-value": "^1.0.4",
-    "stylelint-order": "^0.6.0",
-    "stylelint-scss": "^2.1.0"
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-declaration-strict-value": "^1.1.2",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.5.0"
   },
   "devDependencies": {
-    "stylelint": "^8.1.1"
+    "stylelint": "^9.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0"
+    "stylelint": "^9.0.0"
   }
 }
